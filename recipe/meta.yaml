@@ -1,8 +1,8 @@
 {% set name = "mms-python-client" %}
-{% set version = "3.4.2.1" %}
+{% set version = "4.0.0a1" %}
 {% set file_ext = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "6855d99218ed7e219e37d6cb6628443ac3abeb1921c16e0f778b1aee3e625290" %}
+{% set hash_value = "fc24430d48d31fa6db06e0e035a41d37c10dcd7bd85374cdfe891a40ab0492d1" %}
 
 package:
   name: '{{ name|lower }}'
