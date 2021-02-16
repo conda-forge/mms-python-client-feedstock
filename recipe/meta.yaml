@@ -32,12 +32,16 @@ test:
 
 about:
   home: http://openmbee.org
-  license: Apache 2.0
-  license_file: LICENSE
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE.txt
   summary: Model Management Service
-  description: 'Model Management System (MMS) is a version control system for structured data. It exposes model information through RESTful web services that can be used for CRUD operations, branching,
-    and tagging of the model repository.'
+  description: |
+    Model Management System (MMS) is a version control system for structured data.
+    It exposes model information through RESTful web services that can be used for
+    CRUD operations, branching, and tagging of the model repository.
 
 extra:
   recipe-maintainers: 
     - HuiJun
+    - sanbales
