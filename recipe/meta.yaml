@@ -1,21 +1,18 @@
 {% set name = "mms-python-client" %}
-{% set version = "4.0.2" %}
-{% set file_ext = "tar.gz" %}
-{% set hash_type = "sha256" %}
-{% set hash_value = "efae19902a1df2f2490387877abd241d4b2b1a78f4773af474370d80aadfe253" %}
+{% set version = "4.0.3" %}
 
 package:
-  name: '{{ name|lower }}'
-  version: '{{ version }}'
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ file_ext }}
-  '{{ hash_type }}': '{{ hash_value }}'
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 78b54e8cd3a893db50677acdd0194a87aa2d6ca24e28226ce6ce2b4be769b059
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -38,10 +35,9 @@ about:
   license: Apache-2.0
   license_file: LICENSE
   summary: Model Management Service
-  description: 'Model Management System (MMS) is a version control system for structured data. It exposes model information through RESTful web services that can be used for CRUD operations, branching,
-    and tagging of the model repository.'
+  description: Model Management System (MMS) is a version control system for structured data. It exposes model information through RESTful web services that can be used for CRUD operations, branching, and tagging of the model repository.
 
 extra:
-  recipe-maintainers: 
+  recipe-maintainers:
     - HuiJun
     - dlamoris
