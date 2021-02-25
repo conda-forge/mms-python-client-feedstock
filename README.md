@@ -117,4 +117,5 @@ Feedstock Maintainers
 =====================
 
 * [@HuiJun](https://github.com/HuiJun/)
+* [@dlamoris](https://github.com/dlamoris/)
 
