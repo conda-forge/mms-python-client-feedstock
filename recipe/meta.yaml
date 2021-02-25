@@ -1,8 +1,8 @@
 {% set name = "mms-python-client" %}
-{% set version = "3.4.2.1" %}
+{% set version = "4.0.2" %}
 {% set file_ext = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "6855d99218ed7e219e37d6cb6628443ac3abeb1921c16e0f778b1aee3e625290" %}
+{% set hash_value = "efae19902a1df2f2490387877abd241d4b2b1a78f4773af474370d80aadfe253" %}
 
 package:
   name: '{{ name|lower }}'
@@ -19,11 +19,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
     - setuptools
   run:
-    - python
+    - python >=3.6
     - urllib3 >=1.15
     - six >=1.10
     - certifi
@@ -35,7 +35,7 @@ test:
 
 about:
   home: http://openmbee.org
-  license: Apache 2.0
+  license: Apache-2.0
   license_file: LICENSE
   summary: Model Management Service
   description: 'Model Management System (MMS) is a version control system for structured data. It exposes model information through RESTful web services that can be used for CRUD operations, branching,
@@ -44,3 +44,4 @@ about:
 extra:
   recipe-maintainers: 
     - HuiJun
+    - dlamoris
