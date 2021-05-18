@@ -38,6 +38,7 @@ Installing `mms-python-client` from the `conda-forge` channel can be achieved by
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `mms-python-client` can be installed with:
