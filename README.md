@@ -1,11 +1,11 @@
-About mms-python-client
-=======================
+About mms-python-client-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mms-python-client-feedstock/blob/main/LICENSE.txt)
 
 Home: http://openmbee.org
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mms-python-client-feedstock/blob/main/LICENSE.txt)
 
 Summary: Model Management Service
 
