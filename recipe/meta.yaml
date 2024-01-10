@@ -1,5 +1,5 @@
 {% set name = "mms-python-client" %}
-{% set version = "4.0.16" %}
+{% set version = "4.0.18" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ebf54f5b67a33f09a64c4f5eb008f8512691498abbd4282dea294519373e0d26
+  sha256: 4556b7d25e4a3ea9284bd0780f5b7691d7e547cb34851aaebf3decc1b91721b9
 
 build:
   number: 0
